@@ -1,0 +1,50 @@
+/*common-part-style*/
+html,body {background-color:#E9E9E9;}
+.common {
+	width:980px;
+	margin:0 auto;
+}
+/*wrap*/
+.wrap {
+	position:relative;
+}
+
+/*coin-style*/
+.coin {
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+	width:90px;
+	height:85px;
+	background-color:transparent;
+	cursor:pointer;
+}
+.coin img {
+	text-align:center;
+}
+.coin h2 {
+	text-align:center;
+	margin-top:-2px;
+	font:400 14px Microsoft Yahei;
+}
+
+/*article-style*/
+.content {
+	height:600px;
+	background-color:#E4E4E4;
+	font-weight:bold;
+	font-size:14px;
+	color:#2D2D2D;
+}
+p {
+	text-align:left;
+	padding:20px 0 10px 2px;
+	border-bottom:1px solid #00F;
+}
+dt,dd {
+	padding:5px 0 5px 10px;
+}
+dd {
+	text-indent:2em;
+}
